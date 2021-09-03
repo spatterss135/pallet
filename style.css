@@ -1,0 +1,39 @@
+.container { 
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 250px;
+    align-content: center;
+    
+    
+}
+.box-1 {
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    background-color: blue;
+}
+.box-2 {
+    border: 1px solid black;
+     width: 100px;
+    height: 80px;
+    background-color: red;
+} 
+.box-3 {
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    background-color: none;
+}
+
+
+.box-4 {
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    background-color: none;
+}
